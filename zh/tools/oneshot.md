@@ -1,9 +1,4 @@
-# AT 开发
+# OneShot 开发
 
-## 介绍
+APP源码：https://github.com/w600/oneshot
 
-## 准备
-
-## 步骤
-
-## 常见问题
