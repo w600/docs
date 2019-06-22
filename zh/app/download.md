@@ -40,7 +40,7 @@
 
 ## 3.星通智联下载调试软件界面展示
 
-![image](../.assets/download/picture.png)
+![image](../.assets/app/download/picture.png)
 
 ------
 
@@ -48,15 +48,15 @@
 
 **ROM升级 -通过FLS文件升级**
 
-![image](../.assets/download/fls.png)
+![image](../.assets/app/download/fls.png)
 
 **Secboot升级-通过img文件升级**
 
-![image](../.assets/download/img.png)
+![image](../.assets/app/download/img.png)
 
 **擦除fls文件操作**
 
-![image](../.assets/download/earse.png)
+![image](../.assets/app/download/earse.png)
 
 ------
 

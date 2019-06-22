@@ -14,7 +14,7 @@
 
 TB-01 是一款基于联盛德 W600 的超小体积核心开发板，该开发板引出了芯片的所有IO，并且内置LDO和UART传输芯片，只需一根 Micro USB 数据线与电脑连接即可使用，支持一键下载，外设拥有5个环形LED和2颗按键，调试操作极其方便。
 
-![../../../_images/tb_01.png](http://docs.thingsturn.com/_images/tb_01.png)
+![img](../.assets/at/esp-start/tb_01.png)
 
 ## 3.固件烧录、测试
 
@@ -22,9 +22,9 @@ TB-01 是一款基于联盛德 W600 的超小体积核心开发板，该开发�
 -   点击“下载”进行固件下载，`波特率默认使用 115200 bps，支持 2Mbps！`;
 -   `烧录遇到问题的用户请参考:` [W600固件烧录指南](http://docs.thingsturn.com/application_note/download_firmware/)
 
-![../../../_images/at_download.png](../.assets/esp_at/at_download.png)
+![../../../_images/at_download.png](../.assets/at/esp-start/at_download.png)
 
-![../../../_images/at_test.png](../.assets/esp_at/at_test.png)
+![../../../_images/at_test.png](../.assets/at/esp-start/at_test.png)
 
 **到此，已经完成W600系列产品AT固件的下载调试。**
 
@@ -264,34 +264,34 @@ OK
 
 **6.使用PC软件或者其他w600系列模组作为客户端连接设备端**
 
-![image](../.assets/esp_at/wps69DD.tmp.jpg)
+![image](../.assets/at/esp-start/wps69DD.tmp.jpg)
 
 **7.客户端发送数据到服务器**
 
-![image](../.assets/esp_at/wpsD877.tmp.jpg)
+![image](../.assets/at/esp-start/wpsD877.tmp.jpg)
 
 **设备端**
 
 **8.服务器设备端发送数据到所有的客户端**
 
-![image](../.assets/esp_at/wps8060.tmp.jpg)
+![image](../.assets/at/esp-start/wps8060.tmp.jpg)
 
 ### 4.5 智能配网（smartconfig）
 
 **使用智能配网的方式，通过手机让设备连上路由（支持微信、app)**
 
-![image](../.assets/esp_at/wps13EC.tmp.jpg)
+![image](../.assets/at/esp-start/wps13EC.tmp.jpg)
 
-![image](../.assets/esp_at/wpsA803.tmp.jpg)
+![image](../.assets/at/esp-start/wpsA803.tmp.jpg)
 
 ### 4.6 修改波特率
 
 **注意V1.0.10 版本不支持流控设置**
 
-![image](../.assets/esp_at/wpsC030.tmp.jpg)
+![image](../.assets/at/esp-start/wpsC030.tmp.jpg)
 
 ### 4.7 恢复出厂设置
 
 **注：在调试阶段，一些指令的参数会被保存，上电是自动设置，会影响调试，建议使用AT+RESTORE清除这些配置，而不是使用AT+RST复位。**
 
-![image](../.assets/esp_at/wps2738.tmp.jpg)
+![image](../.assets/at/esp-start/wps2738.tmp.jpg)

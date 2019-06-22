@@ -22,7 +22,7 @@
 
 ### 3.2 工程目录介绍
 
-![image](../.assets/rtthread/1551025944478.png)
+![image](../.assets/rt-thread/start/1551025944478.png)
 
 docs文件夹下放着W600\_RTT相关的参考文档，建议先阅读
 UM3103-RT-Thread-W60X-SDK 快速上手.pdf 和 UM3101-RT-Thread-W60X-SDK
@@ -36,9 +36,9 @@ W600\_RT-Thread\_SDK（体验版）提供了三个Demo，让用户体验W600\_RT
 
 固件生成在RT-Thread\_W60X\_SDKexamplesBin目录下\`。
 
-![image](../.assets/rtthread/1551026444198.png)
+![image](../.assets/rt-thread/start/1551026444198.png)
 
-![image](../.assets/rtthread/1551026555274.png)
+![image](../.assets/rt-thread/start/1551026555274.png)
 
 ### 4.2 烧录
 
@@ -49,4 +49,4 @@ W600\_RT-Thread\_SDK（体验版）提供了三个Demo，让用户体验W600\_RT
 烧录遇到问题的用户请参考:
 [W600固件烧录指南](/application_note/download_firmware/)
 
-![image](../.assets/rtthread/1551026780483.png)
+![image](../.assets/rt-thread/start/1551026780483.png)

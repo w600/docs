@@ -1,6 +1,6 @@
 # arduino 开发板
 
-![image](../.assets/arduino/lsd_arduino.png)
+![img](../.assets/product/arduino/lsd_arduino1.png)
 
 ## 概述
 
