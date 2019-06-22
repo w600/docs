@@ -1,6 +1,6 @@
 # arduino 开发板
 
-![img](../.assets/product/arduino/lsd_arduino1.png)
+![img](../.assets/product/arduino/arduino.png)
 
 ## 概述
 
@@ -26,8 +26,15 @@ arduino 开发板是用来给开发人员测试验证W600功能的开发板。�
 
 ## 资料下载
 
-WM\_Arduino开发板\_使用指导 \</download/product/lsd\_arduino/WM\_Arduino开发板\_使用指导.pdf\>
+[WM\_Arduino开发板使用指导](https://download.w600.fun/document/WM_Arduino%E5%BC%80%E5%8F%91%E6%9D%BF%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC.pdf)
 
-Arduino\_Hardware\_design\_file \</download/product/lsd\_arduino/Arduino\_Hardware\_design\_file.zip\>
+[WM\_Arduino开发板硬件设计资料](https://download.w600.fun/hardware/Arduino_Hardware_design_file.zip)
 
-WM\_SDK\_RGB\_Control\_Sample \</download/product/lsd\_arduino/WM\_SDK\_RGB\_Control\_Sample.zip\>
+
+
+## 其它
+
+[W600 Arduino 入门指南](../arduino/start.md)
+
+[W600 Arduino 源码](https://github.com/w600/arduino)
+

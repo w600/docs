@@ -16,13 +16,13 @@
 * **JavaScript**
   * [入门指导](javascript/start.md)
 * **开发工具**
-  * [搭建集成开发环境](tools/ide.md)
   * [串口调试下载工具](tools/serial.md)
   * [OneShot一键配网](tools/oneshot.md)
 * **应用笔记**
-  * [固件烧录](application/download.md)
-  * [SWD调试](application/swd.md)
-  * [SPI调试](application/spi.md)
+  * [搭建开发环境](app/ide.md)
+  * [固件烧录](app/download.md)
+  * [SWD调试](app/swd.md)
+  * [SPI调试](app/spi.md)
 * [常见问题](faq/index.md)
 * [文档贡献](CONTRIBUTING.md)
 * [资料下载](https://download.w600.fun/)
