@@ -8,7 +8,7 @@
 
 -   W600\_RT-Thread源码：（暂不提供下载， 请先使用GitHub版本 <https://github.com/rt-thread>）
 -   RT-Thread env工具：https://github.com/RT-Thread/env
--   串口下载工具：[串口调试助手](../tools/serial)
+-   串口下载工具：[串口调试助手](https://download.w600.fun/tool/%E6%98%9F%E9%80%9A%E6%99%BA%E8%81%94%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.7z)
 -   开发板 TB-01开发板（[购买链接](http://shop.thingsturn.com/)）
 
 ## 3.环境搭建
@@ -41,6 +41,6 @@ W600\_RT-Thread\_SDK（体验版）提供了三个Demo，让用户体验W600\_RT
 
 烧录方式参考如下截图（截图为Demo:02\_micropython的演示效果）；
 
-烧录遇到问题的用户请参考:[W600固件烧录指南](../app/download)
+烧录遇到问题的用户请参考:[W600固件烧录指南](../app/download.md)
 
 ![image](../.assets/rt-thread/start/1551026780483.png)

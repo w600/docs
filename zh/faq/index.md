@@ -24,7 +24,7 @@
 
 ### 如何基于 T-Cloud 开发产品？
 
-　　T-Cloud 暂时不开放，如您需要使用，可通过[support@thingsturn.com联系我司](mailto:support@thingsturn.com联系我司)，后期我们会开放透传固件，可外接MCU实现任意定制功能。
+　　T-Cloud 暂时不开放，如您需要使用，可通过[support@thingsturn.com](mailto:support@thingsturn.com)联系我司，后期我们会开放透传固件，可外接MCU实现任意定制功能。
 
 ### 如何购买W600模组和测试板？
 

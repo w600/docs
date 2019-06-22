@@ -6,7 +6,7 @@
 
 ## 一、准备工作
 
--   W600\_Keil环境搭建 ：[Soc开发环境搭建指南](../start)
+-   W600\_Keil环境搭建 ：[Soc开发环境搭建指南](../app/ide.md)
 -   硬件准备：JLink、TB-01开发板（或者W600系列模组[购买链接]http://shop.thingsturn.com/)）
 
 ## 二、QFlash驱动获取与配置
