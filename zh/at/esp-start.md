@@ -22,9 +22,9 @@ TB-01 是一款基于联盛德 W600 的超小体积核心开发板，该开发�
 -   点击“下载”进行固件下载，`波特率默认使用 115200 bps，支持 2Mbps！`;
 -   `烧录遇到问题的用户请参考:` [W600固件烧录指南](../app/download.md)
 
-![../../../_images/at_download.png](../.assets/at/esp-start/at_download.png)
+![at_download.png](../.assets/at/esp-start/at_download.png)
 
-![../../../_images/at_test.png](../.assets/at/esp-start/at_test.png)
+![images/at_test.png](../.assets/at/esp-start/at_test.png)
 
 **到此，已经完成W600系列产品AT固件的下载调试。**
 
@@ -295,3 +295,10 @@ OK
 **注：在调试阶段，一些指令的参数会被保存，上电是自动设置，会影响调试，建议使用AT+RESTORE清除这些配置，而不是使用AT+RST复位。**
 
 ![image](../.assets/at/esp-start/wps2738.tmp.jpg)
+
+## 5 资源下载
+
+[兼容版本AT固件](https://download.w600.fun/firmware/thingsturn_w600_at_v1.1.6_20190304.7z)
+[串口下载工具](https://download.w600.fun/tool/%E6%98%9F%E9%80%9A%E6%99%BA%E8%81%94%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.7z)
+[网络调试助手](https://download.w600.fun/tool/NetAssist.exe)
+
