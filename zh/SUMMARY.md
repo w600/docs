@@ -5,6 +5,7 @@
   * [TW-03 Wi-Fi 模组](product/tw-03.md)
   * [TB-01 Wi-Fi 开发板](product/tb-01.md)
 * **AT指令**
+  * [AT固件版本说明](at/version.md)
   * [兼容版本AT使用指南](at/esp-start.md)
   * [联盛德版本AT使用指南](at/wm-start.md)
 * **RT-Thread**
