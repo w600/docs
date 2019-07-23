@@ -19,7 +19,7 @@ W600 系列wifi产品目前拥有两个版本的AT固件；
 
 兼容版AT固件兼容乐鑫ESP8266 AT 指令集；
 
-该固件不开源，可通过 [兼容版AT指令开发入门指导](https://docs.w600.fun/?p=at/esp-start.md) ；
+该固件不开源，可参考 [兼容版AT指令开发入门指导](https://docs.w600.fun/?p=at/esp-start.md) ；
 
 **WM_AT固件**
 
