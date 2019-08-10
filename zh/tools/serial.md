@@ -54,7 +54,7 @@
 
 ## 资源下载
 
-[最新版本下载地址](https://download.w600.fun/tool)
+[最新版本下载地址](https://download.w600.fun/tool/ThingsTurn_Serial_Tool.7z)
 
 ## 常见问题
 
