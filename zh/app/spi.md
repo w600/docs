@@ -32,9 +32,9 @@ TB-01开发板 * 1
 
 | PIN  | STM32 | W600（SPI_0） |  W600（SPI_1）   |
 | :--: | :---: | :--: | :--: |
-| INT  |  PA2  | PB14 | PB08 |
-|  CS  |  PA4  | PB15 | PB09 |
-| CLK  |  PA5  | PB16 | PB10 |
+| INT  |  PA2  | PB14 | PB09 |
+|  CS  |  PA4  | PB15 | PB10 |
+| CLK  |  PA5  | PB16 | PB08 |
 | MOSI |  PA7  | PB17 | PB11 |
 | MISO |  PA6  | PB18 | PB12 |
 

@@ -44,7 +44,7 @@ Target打开对话框，切换到Target标签界面，配置芯片的Flash 和 R
 
 IROM1: Start-0x8010100, Size-0x80000;
 
-IROM2: Start-0x20000000,Size-0x28000;
+IROM2: Start-0x20000000,Size-0x38000;
 
 注意，配置的地址范围不能超过芯片的实际大小；
 
@@ -52,10 +52,7 @@ IROM2: Start-0x20000000,Size-0x28000;
 
 ### 3.配置优化等级
 
-工具栏，选择 Project-\>Options for Target 打开对话框，切换到
-C/C++标签界面，如果需要在线调试跟踪程序必须将优化等级设置为 Level
-0，否则开启优化后的代码实时运行逻辑和实际代码组织结构间存在差异，影
-响调试。
+工具栏，选择 Project-\>Options for Target 打开对话框，切换到C/C++标签界面，如果需要在线调试跟踪程序必须将优化等级设置为 Level0，否则开启优化后的代码实时运行逻辑和实际代码组织结构间存在差异，影响调试。
 
 ![image](../.assets/app/swd/1547488404924.png)
 
@@ -86,30 +83,23 @@ RAM 中运行程序。
 
 ### 5.Utilities 配置
 
-1.  将 W60X Flash 驱动拷贝到 KEI 安装目录的\\ARM\\Flash 目录中2. 选择
-    Project-\>Options for Target 打开对话框，切换到 Utilities 标签界面
-    ，按下图选择12，在 3 的下拉框中选择使用的仿真器必须与 Debug
-    标签中的选择
+1.  将 W60X Flash 驱动拷贝到 KEI 安装目录的\\ARM\\Flash 目录中2. 选择Project-\>Options for Target 打开对话框，切换到 Utilities 标签界面，按下图选择12，在 3 的下拉框中选择使用的仿真器必须与 Debug标签中的选择
 
 ![image](../.assets/app/swd/1547516288023.png)
 
-上图中，点击 Setting，如下图 Flash Download 标签中配置 RAM 和 Flash
-参数必须与前面配置的地址 一致，点击 Add 按钮选择 W60X 芯片的 Flash
-驱动。
+上图中，点击 Setting，如下图 Flash Download 标签中配置 RAM 和 Flash参数必须与前面配置的地址 一致，点击 Add 按钮选择 W60X 芯片的 Flash驱动。[W60x Flash驱动下载地址](https://github.com/w600/W600_QFLASH_Driver_for_SWD)
 
 ![image](../.assets/app/swd/1547516488553.png)
 
-接上图切换到 Debug 标签，如下图按 1 的方式选择调试器接口，正确检测到
-W60X 芯片后会显示框 2 中 的芯片信息。
+接上图切换到 Debug 标签，如下图按 1 的方式选择调试器接口，正确检测到W60X 芯片后会显示框 2 中 的芯片信息。
 
 ![image](../.assets/app/swd/1547516665930.png)
 
-最后选择确定逐级保存所有配。
+最后选择确定逐级保存所有配置。
 
 ## 五、调试
 
-完成 Keil 环境配置，编译程序无误后，选择 Debug-\>Start/Stop Debug
-Session 或 CTRL+F5，进行程 序的在线调试。
+完成 Keil 环境配置，编译程序无误后，选择 Debug-\>Start/Stop Debug Session 或 CTRL+F5，进行程序的在线调试。
 
 ![image](../.assets/app/swd/1547516753228.png)
 

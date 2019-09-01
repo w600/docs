@@ -10,8 +10,8 @@
 
 
 * [W600串口下载调试助手](https://download.w600.fun/tool/%E6%98%9F%E9%80%9A%E6%99%BA%E8%81%94%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.7z)
-* [W600无线透传调试工具]()
-* [W600无线透传固件]()
+* [W600无线透传调试工具](https://download.w600.fun/tool/ThingsTurn_Wireless_Config_Tools.7z)
+* [W600无线透传固件](https://download.w600.fun/firmware/thingsturn_tb02_firmware_20190821.fls)
 * [TB-02 开发板](http://shop.thingsturn.com)  * 2
 * Windows PC * 1
 ### 固件烧录
@@ -167,15 +167,15 @@ COM1 配置为 【测试-TX】， COM2配置为 【测试-RX】
 
 **5 数据丢包** 
 
-​	目前数据持续发送时，会存在丢包问题，此处仍需完善
+​	目前数据持续发送时，会存在丢包问题，此处仍需完善。
 
 **6 功耗过大** 
 
-​	待完善
+​	待完善。
 
 **7 SPI功能** 
 
-​	待完善
+​	待完善。
 
 **8 是否开源** 
 

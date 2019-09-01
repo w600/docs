@@ -13,7 +13,7 @@
 - 固件：[联盛德AT固件](https://download.w600.fun/firmware/at.fls)
 - 硬件：TB-01开发板 或 W600系列模组，开发板（[购买链接](http://shop.thingsturn.com)）
 - Micro USB线
-- 文档：AT指令用户手册
+- 文档：[WM_AT指令集手册](https://download.w600.fun/document/W60X_SDK_AT%E6%8C%87%E4%BB%A4%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
 
 ## 步骤
 
