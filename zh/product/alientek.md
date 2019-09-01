@@ -29,7 +29,6 @@ W601 全功能开发板是由**联盛德、正点原子、RT-Thread**三方联�
 
 [RT-Thread文档中心](https://www.rt-thread.org/document/site/)
 
-[正点原子开发论坛]([http://openedv.com](http://www.openedv.com/))
+[正点原子开发论坛](http://openedv.com)
 
 [正点原子W601开发板QQ交流群：797416020](https://jq.qq.com/?_wv=1027&k=5fcxk5i)
-
