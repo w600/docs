@@ -7,6 +7,8 @@
   * [TW-07 Wi-Fi 模组](product/tw-07.md)
   * [TB-01 Wi-Fi 开发板](product/tb-01.md)
   * [TB-02 Wi-Fi 开发板](product/tb-02.md)
+  * [正点原子 W601 全功能开发板](product/alientek.md)
+  * [W600 Arduino 开发板](product/arduino.md)
 * **AT指令**
   * [AT固件版本说明](at/version.md)
   * [兼容版本AT使用指南](at/esp-start.md)
