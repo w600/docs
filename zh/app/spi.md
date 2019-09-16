@@ -8,25 +8,9 @@ TB-01开发板 * 1
 
 100 欧姆电阻 * 5 （`非必须，加上后传输会稳定很多`） 
 
-## 步骤
+## 连接
 
-1.  修改 /platform/sys/wm_main.c ，Line 147：wm_gpio_config() 里面屏蔽 主spi配置；
-![1561454454250](../.assets/app/spi/1561454454250.png)
-
-2.  修改 include/wm_config.h ，Line 20：关闭低速SPI ；
-    ![1561454480468](../.assets/app/spi/1561454480468.png)
-
-3.  修改 sdk/src/app/wm_atcmd/wm_hspi_task.c，Line 722：选择使用哪一组 SPI 引脚；
- ![1561457547066](../.assets/app/spi/1561457547066.png)
-
-4.  修改根目录下的 Makefile， Line 20：USE_LIB=0 不链接lib。
-![1561454461790](../.assets/app/spi/1561454461790.png)
-
-5.  重新编译固件，并烧录；
-
-6.  打开W600串口0或者串口1，配置为115200, 8, N, 1，串口发送 AT+PORTM=!2 ，使能W600的SPI接口模式；
-
-7.  连接 STM32 和 W600，连接STM32串口观察打印信息；
+`注意：新版本固件已默认设置AT+PORTM=2，无需再次手动通过串口发送该指令。`
 
 **SPI接线描述**
 
@@ -47,23 +31,31 @@ TB-01开发板 * 1
 | PA10  |    TX    |
 |  GND  |   GND    |
 
-8.  打印信息如下：
+修改STM32 Demo 程序，找到 main.c，把要连接的SSID和密码修改成实际的SSID和密码，通信地址的IP地址和端口修改为电脑端实际的TCP Server的IP地址和端口。
 
-![1561457852734](../.assets/app/spi/1561457852734.png)
+![1568607472861](../.assets/app/spi/1568607472861.png)
+
+重新编译STM32代码并烧录。运行如下图：
+
+![1568607229539](../.assets/app/spi/1568607229539.png)
+
+（左边为w600，右边为stm32）
 
 ## 注意
 
-部分客户反馈测试时，经常会收到SPI数据 0x00，这个问题一般是由于信号传输不稳定导致的，建议在 spi 通信连接线上串一个100欧姆的电阻，另外使用杜邦线时接收会不稳定，最好是直接焊接上去，如下图：
+部分客户反馈测试时，经常会收到SPI数据 0x00，这个问题一般是由于信号传输不稳定导致的，
 
-![1561454430578](../.assets/app/spi/1561454430578.png)
+1.  在 CLK，MISO，MOSI 连接线上串一个100欧姆的电阻；
+2.  不要使用杜邦线，或者接线尽可能短；
+3.  W600 电源单独供电，确保3.3V@500mA以上。
 
 ## 资料下载
 
-[W600 SPI0 测试固件下载](https://download.w600.fun/firmware/W600_SPI_0.FLS)
+[W600 SPI0 固件下载](https://download.w600.fun/firmware/w600_spi0_v3.2.0_20190916.fls)
 
-[W600 SPI1 测试固件下载](https://download.w600.fun/firmware/W600_SPI_1.FLS)
+[W600 SPI1 固件下载](https://download.w600.fun/firmware/w600_spi1_v3.2.0_20190916.fls)
 
 [STM32 Demo 程序下载](https://download.w600.fun/firmware/stm32_spi_code.7z)
 
-[W600 RI 指令集手册下载](https://download.w600.fun/document/RI%E6%8C%87%E4%BB%A4%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
+[W600 RI 指令集手册下载（较旧，仅供参考，新的文档还在整理中）](https://download.w600.fun/document/RI%E6%8C%87%E4%BB%A4%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
 
